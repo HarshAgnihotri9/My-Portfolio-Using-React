@@ -1,0 +1,45 @@
+.navbar{
+    margin-top: 1vw;
+display: flex;
+justify-content:space-between;
+align-items: center;   
+}
+
+.left h2{
+    text-decoration:underline;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 3vw;
+    margin-top: 1vw;
+    margin-right: 0;    
+    margin-left: 40%;
+}
+nav ul li {
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    color: black;
+    font-size: 1.2vw;
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+nav ul li :hover{
+    background-color: antiquewhite;
+    color: turquoise;
+    padding: 5px;
+    border-radius:20%;
+    
+}
+nav ul img{
+    height: 5%;
+    width: 5%;
+}

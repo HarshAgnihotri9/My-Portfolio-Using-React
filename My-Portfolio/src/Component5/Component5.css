@@ -1,0 +1,9 @@
+.mains{
+    display: flex;
+    /* color: blueviolet; */
+    /* background-color: blue; */
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
