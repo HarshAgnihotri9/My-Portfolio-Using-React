@@ -56,8 +56,8 @@ useEffect(()=>{
         </div>
         <div className="mainright">
             <div className="firstline">
-                <h2> Hii </h2> <br />
-                <h1> i  am Harsh Agnihotri </h1>
+                <h2> Hii, </h2> <br />
+                <h1> I  am Harsh Agnihotri </h1>
                 
                 <h1 className='Textchange'>  Web Developer </h1>
                 

@@ -5,14 +5,18 @@
 }
 .mains{
     display: flex;
-     z-index: 6;
-     /* color: blueviolet; */
-     /* background-color: blue; */
-     flex-wrap: wrap;
-     
+    z-index: 6;
+    /*background-color: black;
+    *//*color: blueviolet;
+    *//*background-color: blue;
+    */flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    top :-320px;
-    gap:20vw
+    top:-320px;
+    gap:20vw;
 
+    
+}
+body{
+    /* background-color: black; */
 }

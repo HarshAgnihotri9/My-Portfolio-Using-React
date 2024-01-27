@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar{
     margin-top: 1vw;
 display: flex;
@@ -6,15 +11,17 @@ align-items: center;
 }
 
 .left h2{
+    display: block;
     text-decoration:underline;
     margin-left: 20px;
+    /* border-top: 3px solid lightseagreen; */
 }
 
 nav ul{
     display: flex;
-    gap: 3vw;
+    gap: 2vw;
     margin-top: 1vw;
-    margin-right: 0;    
+    /* margin-right: 6vw;     */
     margin-left: 40%;
 }
 nav ul li {
@@ -37,9 +44,16 @@ nav ul li :hover{
     color: turquoise;
     padding: 5px;
     border-radius:20%;
-    
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    -ms-border-radius:20%;
+    -o-border-radius:20%;
 }
 nav ul img{
     height: 5%;
     width: 5%;
+}
+.right{
+    /* margin-left: 15vw; */
+    margin-right: 2vw;
 }

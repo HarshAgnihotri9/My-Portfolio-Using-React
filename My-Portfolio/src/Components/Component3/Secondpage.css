@@ -35,15 +35,12 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 /* .body{margin: 0;} */
 
-.container1{
-    height: 40vw;
-    width: 80vw;
-    z-index: 6;
-    background-color: brown;
-    position: relative;
-    top: -200px;
-    left: 10vh;
+@media screen  and (max-width :1500px){
+    .box h1{
+        margin-top: 40vw;
+    }
 }

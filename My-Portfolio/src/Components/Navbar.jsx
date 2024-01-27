@@ -42,7 +42,7 @@ function Navbar() {
             <li style={{display:repp.display,visibility:repp.visibility}}><a href="">Home</a></li>
             <li style={{display:repp.display , visibility:repp.visibility}}><a href="">About</a></li>
             <li style={{display:repp.display , visibility:repp.visibility}}><a href="">Projects</a></li>
-            <li style={{display:repp.display , visibility:repp.visibility}}><a href="">My Resume</a></li>
+            <li style={{display:repp.display , visibility:repp.visibility , textWrap:'nowrap'}}><a href="">My Resume</a></li>
             <li style={{display:repp.display , visibility:repp.visibility}}><a href="">More</a></li>
             <img src="./src/Components/sort.png" alt="" />
         </ul>
